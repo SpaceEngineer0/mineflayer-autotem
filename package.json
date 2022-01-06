@@ -1,0 +1,19 @@
+{
+  "name": "mineflayer-autotem",
+  "version": "1.0.0",
+  "description": "Auto totem plugin for Mineflayer bots",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpaceEngie/mineflayer-autotem.git"
+  },
+  "author": "SpaceEngie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SpaceEngie/mineflayer-autotem/issues"
+  },
+  "homepage": "https://github.com/SpaceEngie/mineflayer-autotem#readme"
+}
