@@ -9,7 +9,7 @@ Install and load the plugin.
 ```js
 const autotem = require('mineflayer-autotem');
 
-// load the plugin AFTER you created a bot
+// load the plugin after you created a bot
 bot.loadPlugin(autotem);
 ```
 
@@ -21,6 +21,16 @@ Equips a Totem of Undying to bot's off-hand.
 
 ```js
 bot.autotem.equip();
+```
+
+### auto
+
+Automatically equips totems each psychicTick when `true` argument is provided until a `false` argument.
+
+```js
+bot.autotem.auto(true);
+
+bot.autotem.auto(false);
 ```
 
 ### totemCount
@@ -38,8 +48,7 @@ const mineflayer = require('mineflayer');
 const autotem = require('mineflayer-autotem');
 
 const bot = mineflayer.createBot({
-  host: 'localHost',
-  port: '',      // LAN port
+  host: 'localHost',      // server IP
   username: 'totem_bot'
 })
 
