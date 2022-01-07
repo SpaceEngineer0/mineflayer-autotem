@@ -23,16 +23,6 @@ Equips a Totem of Undying to bot's off-hand.
 bot.autotem.equip();
 ```
 
-### auto
-
-Automatically equips totems each psychicTick when `true` argument is provided until a `false` argument.
-
-```js
-bot.autotem.auto(true);
-
-bot.autotem.auto(false);
-```
-
 ### totemCount
 
 Returns the number of totems in bot's inventory.

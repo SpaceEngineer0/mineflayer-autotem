@@ -10,11 +10,6 @@ module.exports = bot => {
 				bot.equip(totem, 'off-hand');
 			}
 		},
-		auto(enabled = false) {
-			bot.on('physicTick', () => {
-				if (enabled === true) this.equip()
-			});
-		},
 		totemCount() {
 			var count = 0;
 			bot.inventory.slots.forEach(item => {

@@ -1,6 +1,6 @@
 {
   "name": "mineflayer-autotem",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "description": "Auto totem plugin for Mineflayer bots",
   "main": "index.js",
   "scripts": {
