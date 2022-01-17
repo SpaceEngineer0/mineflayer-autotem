@@ -11,5 +11,8 @@
     "url": "https://github.com/SpaceEngie/mineflayer-autotem"
   },
   "author": "SpaceEngie",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "mineflayer": "^3.14.1"
+  }
 }
